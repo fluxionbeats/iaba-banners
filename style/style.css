@@ -65,7 +65,7 @@ body {
   justify-content: space-between;
 }
 
-.banner-home:nth-child(2){
+.banner-home:nth-child(2) {
   margin-left: 20px;
 }
 
@@ -162,35 +162,36 @@ body {
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 13%);
 }
 
-@media (max-width: 1250px){
-  .container{
+@media (max-width: 1250px) {
+  .container {
     max-width: 970px;
   }
+
   .banner-home__content {
     max-width: 310px;
   }
-  
+
   .banner-home__title {
     font-size: 1rem;
   }
-  
+
   .banner-home__subtitle {
     font-size: 0.75rem;
   }
 
-  .banner-home__img{
+  .banner-home__img {
     width: 100px;
     height: 100px;
   }
-  
+
   .banner-home__advantages {
     font-size: 0.75rem;
   }
-  
+
   .banner-home__price {
     font-size: 1rem;
   }
-  
+
   .banner-home__link {
     font-size: 1rem;
   }
@@ -200,39 +201,42 @@ body {
   .container {
     max-width: 750px;
   }
-  .banner-home-wrapper{
+
+  .banner-home-wrapper {
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
   }
-  .banner-home:nth-child(2){
+
+  .banner-home:nth-child(2) {
     margin-left: 0;
     margin-top: 20px;
   }
+
   .banner-home__content {
     max-width: 397px;
   }
-  
+
   .banner-home__title {
     font-size: 1.25rem;
   }
-  
+
   .banner-home__subtitle {
     font-size: 1rem;
   }
 
-  .banner-home__img{
+  .banner-home__img {
     width: 132px;
     height: 132px;
   }
-  
+
   .banner-home__advantages {
     font-size: 1rem;
   }
-  
+
   .banner-home__price {
     font-size: 1.25rem;
   }
-  
+
   .banner-home__link {
     font-size: 1.25rem;
   }
@@ -249,28 +253,28 @@ body {
   .banner-home__content {
     max-width: 310px;
   }
-  
+
   .banner-home__title {
     font-size: 1rem;
   }
-  
+
   .banner-home__subtitle {
     font-size: 0.75rem;
   }
 
-  .banner-home__img{
+  .banner-home__img {
     width: 100px;
     height: 100px;
   }
-  
+
   .banner-home__advantages {
     font-size: 0.75rem;
   }
-  
+
   .banner-home__price {
     font-size: 1rem;
   }
-  
+
   .banner-home__link {
     font-size: 1rem;
   }
@@ -278,71 +282,191 @@ body {
 
 
 @media (max-width: 520px) {
-  .banner-home{
+  .banner-home {
+    padding: 1.25rem;
     line-height: 120%;
   }
+
   .banner-home__content {
-    max-width: 270px;
+    max-width: 280px;
   }
-  
+
   .banner-home__title {
     font-size: 1rem;
   }
-  
+
   .banner-home__subtitle {
     font-size: 0.75rem;
   }
 
-  .banner-home__img{
-    width: 100px;
-    height: 100px;
+  .banner-home__img {
+    width: 90px;
+    height: 90px;
+    top: 20px;
+    right: 20px;
   }
-  
+
   .banner-home__advantages {
     font-size: 0.75rem;
     margin-bottom: 1.5em;
   }
-  
+
   .banner-home__price {
     font-size: 1rem;
   }
-  
+
   .banner-home__link {
     font-size: 1rem;
   }
-  .banner-home__diploma{
+
+  .banner-home__diploma {
     width: 100px;
     height: auto;
+    bottom: 20px;
+    right: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .banner-home__content {
-    max-width: 230px;
+  .banner-home__title {
+    max-width: 200px;
   }
-  
+
+  .banner-home__content {
+    max-width: 260px;
+  }
+
   .banner-home__title {
     font-size: 1rem;
   }
-  
+
   .banner-home__subtitle {
     font-size: 0.7rem;
+    margin-bottom: 0.7em;
   }
 
-  .banner-home__img{
-    width: 100px;
-    height: 100px;
+  .banner-home__img {
+    width: 80px;
+    height: 80px;
   }
-  
+
   .banner-home__advantages {
     font-size: 0.7rem;
+    margin-bottom: 1em;
   }
-  
+
+  .banner-home__advantages__item {
+    padding-bottom: 0.2em;
+  }
+
   .banner-home__price {
     font-size: 1rem;
   }
-  
+
   .banner-home__link {
     font-size: 1rem;
+    padding: 0.6em 2.2em;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .banner-home__content {
+    max-width: 250px;
+  }
+
+  .banner-home__title {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+
+  .banner-home__subtitle {
+    font-size: 0.6rem;
+  }
+
+  .banner-home__img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .banner-home__advantages {
+    font-size: 0.6rem;
+  }
+
+  .banner-home__price {
+    font-size: 0.875rem;
+    margin-bottom: 0.5em;
+  }
+
+  .banner-home__link {
+    font-size: 0.875rem;
+  }
+
+  .banner-home__diploma {
+    width: 80px;
+    height: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+
+}
+
+@media (max-width: 405px) {
+  .banner-home__content {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 387px) {
+  .banner-home {
+    line-height: 100%;
+    padding: 0.875rem;
+  }
+
+  .banner-home__content {
+    max-width: 200px;
+  }
+
+  .banner-home__title {
+    font-size: 0.75rem;
+    max-width: 170px;
+  }
+
+  .banner-home__subtitle {
+    font-size: 0.5rem;
+    max-width: 200px;
+    margin-bottom: 0.5em;
+  }
+
+  .banner-home__img {
+    width: 60px;
+    height: 60px;
+    top: 14px;
+    right: 14px;
+  }
+
+  .banner-home__advantages {
+    font-size: 0.5rem;
+  }
+
+  .banner-home__price {
+    font-size: 0.75rem;
+  }
+
+  .banner-home__link {
+    font-size: 0.75rem;
+  }
+
+  .banner-home__diploma {
+    width: 72px;
+    height: auto;
+    bottom: 14px;
+    right: 14px;
+  }
+}
+
+@media (max-width: 334px) {
+  .banner-home__content {
+    max-width: 180px;
   }
 }
