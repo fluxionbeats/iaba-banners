@@ -1,0 +1,348 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-home-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-home {
+  width: 100%;
+  max-width: 595px;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  padding: 1.75em;
+  border-radius: 0.5em;
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner-home:nth-child(2){
+  margin-left: 20px;
+}
+
+.banner-home.banner-left {
+  background-color: #008C0E;
+}
+
+.banner-home.banner-right {
+  background-color: #0006A1;
+}
+
+.banner-home:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 20%;
+  background-image: url(../img/bg-transparent.png);
+  background-size: 20%;
+}
+
+.banner-home__title {
+  font-size: 1.375rem;
+  margin-bottom: 0.36363636363em;
+}
+
+.banner-home__subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.banner-home__img {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.banner-home__content {
+  max-width: 397px;
+}
+
+.banner-home__advantages {
+  font-size: 1em;
+  margin-left: 2em;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-bottom: 2.5em;
+}
+
+.banner-home__advantages__item {
+  padding-bottom: 0.5em;
+}
+
+.banner-home__price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.banner-home__link {
+  position: relative;
+  display: inline-block;
+  font-size: 1.25rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.8em 2.4em;
+  background-color: #E82F3A;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 13%);
+  transition: all .3s ease-in-out;
+}
+
+.banner-home__link:hover {
+  background-color: #cf2e2e;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 25%);
+}
+
+.banner-home_link:visited {
+  color: #fff;
+}
+
+.banner-home__diploma {
+  position: absolute;
+  bottom: 28px;
+  right: 28px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 13%);
+}
+
+@media (max-width: 1250px){
+  .container{
+    max-width: 970px;
+  }
+  .banner-home__content {
+    max-width: 310px;
+  }
+  
+  .banner-home__title {
+    font-size: 1rem;
+  }
+  
+  .banner-home__subtitle {
+    font-size: 0.75rem;
+  }
+
+  .banner-home__img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .banner-home__advantages {
+    font-size: 0.75rem;
+  }
+  
+  .banner-home__price {
+    font-size: 1rem;
+  }
+  
+  .banner-home__link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+  .banner-home-wrapper{
+    flex-direction: column;
+    align-items: center;    
+  }
+  .banner-home:nth-child(2){
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .banner-home__content {
+    max-width: 397px;
+  }
+  
+  .banner-home__title {
+    font-size: 1.25rem;
+  }
+  
+  .banner-home__subtitle {
+    font-size: 1rem;
+  }
+
+  .banner-home__img{
+    width: 132px;
+    height: 132px;
+  }
+  
+  .banner-home__advantages {
+    font-size: 1rem;
+  }
+  
+  .banner-home__price {
+    font-size: 1.25rem;
+  }
+  
+  .banner-home__link {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .banner-home__content {
+    max-width: 310px;
+  }
+  
+  .banner-home__title {
+    font-size: 1rem;
+  }
+  
+  .banner-home__subtitle {
+    font-size: 0.75rem;
+  }
+
+  .banner-home__img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .banner-home__advantages {
+    font-size: 0.75rem;
+  }
+  
+  .banner-home__price {
+    font-size: 1rem;
+  }
+  
+  .banner-home__link {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 520px) {
+  .banner-home{
+    line-height: 120%;
+  }
+  .banner-home__content {
+    max-width: 270px;
+  }
+  
+  .banner-home__title {
+    font-size: 1rem;
+  }
+  
+  .banner-home__subtitle {
+    font-size: 0.75rem;
+  }
+
+  .banner-home__img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .banner-home__advantages {
+    font-size: 0.75rem;
+    margin-bottom: 1.5em;
+  }
+  
+  .banner-home__price {
+    font-size: 1rem;
+  }
+  
+  .banner-home__link {
+    font-size: 1rem;
+  }
+  .banner-home__diploma{
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-home__content {
+    max-width: 230px;
+  }
+  
+  .banner-home__title {
+    font-size: 1rem;
+  }
+  
+  .banner-home__subtitle {
+    font-size: 0.7rem;
+  }
+
+  .banner-home__img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .banner-home__advantages {
+    font-size: 0.7rem;
+  }
+  
+  .banner-home__price {
+    font-size: 1rem;
+  }
+  
+  .banner-home__link {
+    font-size: 1rem;
+  }
+}
