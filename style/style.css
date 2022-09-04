@@ -171,29 +171,17 @@ body {
     max-width: 310px;
   }
 
-  .banner-home__title {
+  .banner-home__title, .banner-home__price, .banner-home__link {
     font-size: 1rem;
   }
 
-  .banner-home__subtitle {
+  .banner-home__subtitle, .banner-home__advantages {
     font-size: 0.75rem;
   }
 
   .banner-home__img {
     width: 100px;
     height: 100px;
-  }
-
-  .banner-home__advantages {
-    font-size: 0.75rem;
-  }
-
-  .banner-home__price {
-    font-size: 1rem;
-  }
-
-  .banner-home__link {
-    font-size: 1rem;
   }
 }
 
@@ -216,29 +204,17 @@ body {
     max-width: 397px;
   }
 
-  .banner-home__title {
+  .banner-home__title, .banner-home__price, .banner-home__link {
     font-size: 1.25rem;
   }
 
-  .banner-home__subtitle {
+  .banner-home__subtitle, .banner-home__advantages {
     font-size: 1rem;
   }
 
   .banner-home__img {
     width: 132px;
     height: 132px;
-  }
-
-  .banner-home__advantages {
-    font-size: 1rem;
-  }
-
-  .banner-home__price {
-    font-size: 1.25rem;
-  }
-
-  .banner-home__link {
-    font-size: 1.25rem;
   }
 }
 
@@ -254,29 +230,9 @@ body {
     max-width: 310px;
   }
 
-  .banner-home__title {
-    font-size: 1rem;
-  }
-
-  .banner-home__subtitle {
-    font-size: 0.75rem;
-  }
-
   .banner-home__img {
     width: 100px;
     height: 100px;
-  }
-
-  .banner-home__advantages {
-    font-size: 0.75rem;
-  }
-
-  .banner-home__price {
-    font-size: 1rem;
-  }
-
-  .banner-home__link {
-    font-size: 1rem;
   }
 }
 
@@ -292,11 +248,11 @@ body {
   }
 
   .banner-home__title {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .banner-home__subtitle {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
 
   .banner-home__img {
@@ -307,16 +263,16 @@ body {
   }
 
   .banner-home__advantages {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     margin-bottom: 1.5em;
   }
 
   .banner-home__price {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .banner-home__link {
-    font-size: 1rem;
+    font-size: 1.1 rem;
   }
 
   .banner-home__diploma {
@@ -336,38 +292,10 @@ body {
     max-width: 260px;
   }
 
-  .banner-home__title {
-    font-size: 1rem;
-  }
-
-  .banner-home__subtitle {
-    font-size: 0.7rem;
-    margin-bottom: 0.7em;
-  }
-
   .banner-home__img {
     width: 80px;
     height: 80px;
   }
-
-  .banner-home__advantages {
-    font-size: 0.7rem;
-    margin-bottom: 1em;
-  }
-
-  .banner-home__advantages__item {
-    padding-bottom: 0.2em;
-  }
-
-  .banner-home__price {
-    font-size: 1rem;
-  }
-
-  .banner-home__link {
-    font-size: 1rem;
-    padding: 0.6em 2.2em;
-  }
-
 }
 
 @media (max-width: 425px) {
@@ -375,13 +303,13 @@ body {
     max-width: 250px;
   }
 
-  .banner-home__title {
-    font-size: 0.875rem;
-    margin-bottom: 0;
+  .banner-home__titleб .banner-home__linkб .banner-home__price {
+    font-size: 1rem;
   }
 
-  .banner-home__subtitle {
-    font-size: 0.6rem;
+  .banner-home__subtitle,
+  .banner-home__advantages {
+    font-size: 0.8rem;
   }
 
   .banner-home__img {
@@ -389,17 +317,8 @@ body {
     height: 70px;
   }
 
-  .banner-home__advantages {
-    font-size: 0.6rem;
-  }
-
   .banner-home__price {
-    font-size: 0.875rem;
     margin-bottom: 0.5em;
-  }
-
-  .banner-home__link {
-    font-size: 0.875rem;
   }
 
   .banner-home__diploma {
@@ -419,7 +338,6 @@ body {
 
 @media (max-width: 387px) {
   .banner-home {
-    line-height: 100%;
     padding: 0.875rem;
   }
 
@@ -428,12 +346,21 @@ body {
   }
 
   .banner-home__title {
-    font-size: 0.75rem;
     max-width: 170px;
   }
 
+  .banner-home__title,
+  .banner-home__price,
+  .banner-home__link {
+    font-size: 0.9rem;
+  }
+
+  .banner-home__subtitle,
+  .banner-home__advantages {
+    font-size: 0.7rem;
+  }
+
   .banner-home__subtitle {
-    font-size: 0.5rem;
     max-width: 200px;
     margin-bottom: 0.5em;
   }
@@ -443,18 +370,6 @@ body {
     height: 60px;
     top: 14px;
     right: 14px;
-  }
-
-  .banner-home__advantages {
-    font-size: 0.5rem;
-  }
-
-  .banner-home__price {
-    font-size: 0.75rem;
-  }
-
-  .banner-home__link {
-    font-size: 0.75rem;
   }
 
   .banner-home__diploma {
