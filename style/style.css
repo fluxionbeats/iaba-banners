@@ -171,11 +171,14 @@ body {
     max-width: 310px;
   }
 
-  .banner-home__title, .banner-home__price, .banner-home__link {
+  .banner-home__title,
+  .banner-home__price,
+  .banner-home__link {
     font-size: 1rem;
   }
 
-  .banner-home__subtitle, .banner-home__advantages {
+  .banner-home__subtitle,
+  .banner-home__advantages {
     font-size: 0.75rem;
   }
 
@@ -204,11 +207,14 @@ body {
     max-width: 397px;
   }
 
-  .banner-home__title, .banner-home__price, .banner-home__link {
+  .banner-home__title,
+  .banner-home__price,
+  .banner-home__link {
     font-size: 1.25rem;
   }
 
-  .banner-home__subtitle, .banner-home__advantages {
+  .banner-home__subtitle,
+  .banner-home__advantages {
     font-size: 1rem;
   }
 
@@ -276,10 +282,7 @@ body {
   }
 
   .banner-home__diploma {
-    width: 100px;
-    height: auto;
-    bottom: 20px;
-    right: 20px;
+    display: none;
   }
 }
 
